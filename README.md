@@ -2,7 +2,33 @@
 
 ## Overview and Purpose
 
-The purpose of this project is to calculate the number of possible key options for a given key length and generate random key values within that range. It also implements a function to find a key through brute force method by iterating over the key values. 
+The purpose of this project is to calculate the number of possible key options for a given key length and generate random key values within that range. It also implements a function to find a key through brute force method by iterating over the key values.
+
+## Instruction
+
+This script tests the brute force function to find a key given its key length and key space. The test runs for multiple key lengths and generates a random key for each one. The brute force function then attempts to find the key and the time taken is recorded. 
+
+### Prerequisites
+
+- Python 3 installed on your machine
+- Required Libraries:
+  - decimal
+  - time
+  - random
+  
+### Running the script
+
+To run the script, follow these steps:
+
+1. Clone the repository or download the script file.
+2. Open a terminal or command prompt and navigate to the directory where the script is saved.
+3. Type the following command to run the script:
+
+``` 
+python3 key_brute_force_testing.py
+```
+
+4. The script will output the key space and random key generated for each key length, followed by the time taken to find the key using the brute force function.
 
 ## System Content
 
